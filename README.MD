@@ -30,6 +30,13 @@ root/
 
 ## Що потрібно для запуску
 
+###  Клонування репозиторію
+
+```bash
+git clone https://github.com/Evgeny-Rutkovskyi/Test-task.git
+cd Test-task
+```
+
 ### Встановити:
 
 - [Node.js](https://nodejs.org/) (LTS версія)
