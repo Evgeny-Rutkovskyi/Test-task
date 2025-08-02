@@ -34,7 +34,7 @@ root/
 
 ```bash
 git clone https://github.com/Evgeny-Rutkovskyi/Test-task.git
-cd task-manager
+cd Test-task
 ```
 
 ### Встановити:
