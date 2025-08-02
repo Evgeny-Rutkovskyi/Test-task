@@ -57,6 +57,8 @@ npm install --prefix electron
 
 ### 2. Запустити базу даних
 
+Запустити Docker Desktop, після чого виконати команду:
+
 ```bash
 docker-compose up -d
 ```
