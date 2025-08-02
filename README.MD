@@ -30,6 +30,13 @@ root/
 
 ## Що потрібно для запуску
 
+###  Клонування репозиторію
+
+```bash
+git clone https://github.com/your-username/task-manager.git
+cd task-manager
+```
+
 ### Встановити:
 
 - [Node.js](https://nodejs.org/) (LTS версія)
