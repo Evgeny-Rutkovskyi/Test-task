@@ -57,7 +57,7 @@ npm install --prefix electron
 
 ### 2. Запустити базу даних
 
-Запустити Docker Desktop, після чого виконати команду:
+Запустити Docker Desktop, після чого виконати команду в терміналі проєкту:
 
 ```bash
 docker-compose up -d
@@ -70,7 +70,7 @@ docker-compose up -d
 ### 3. Запустити додаток у dev-режимі
 
 ```bash
-npm run dev
+npm run start
 ```
 
 Це запускає:
