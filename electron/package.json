@@ -1,0 +1,44 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "main": "main.js",
+  "build": {
+    "appId": "com.local.taskmanager",
+    "productName": "Task Manager",
+    "directories": {
+      "buildResources": "assets",
+      "output": "../dist"
+    },
+    "files": [
+      "../frontend/build/**/*",
+      "main.js"
+    ],
+    "extraResources": [
+      {
+        "from": "../backend/dist",
+        "to": "backend"
+      }
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "scripts": {
+    "start": "concurrently \"npm:serve\" \"npm:electron\"",
+    "serve": "cross-env BROWSER=none npm run start --prefix frontend",
+    "electron": "wait-on http://localhost:3000 && electron electron/main.js",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.0",
+    "cross-env": "^10.0.0",
+    "wait-on": "^8.0.4"
+  },
+  "devDependencies": {
+    "electron": "^37.2.5"
+  }
+}
