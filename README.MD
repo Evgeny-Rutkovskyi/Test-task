@@ -33,7 +33,7 @@ root/
 ###  Клонування репозиторію
 
 ```bash
-git clone https://github.com/your-username/task-manager.git
+git clone https://github.com/Evgeny-Rutkovskyi/Test-task.git
 cd task-manager
 ```
 
